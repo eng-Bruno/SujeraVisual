@@ -1,0 +1,19 @@
+.Home {
+  height: 810px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(20, 20, 20);
+}
+
+h1 {
+  margin: 0;
+  font-size: 56px;
+  color: white;
+}
+
+.background {
+  background-color: rgba(20, 20, 20, 0.993);
+}

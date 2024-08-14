@@ -1,12 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Components/Home";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>SUJERA VISUAL</h1>
-      </header>
+      <Home />
     </div>
   );
 }
