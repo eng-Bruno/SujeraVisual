@@ -6,10 +6,10 @@ function Home() {
   return (
     <div className="Home">
       <Grid container spacing={2}>
-        <Grid item md={8}>
+        <Grid item md={6}>
           <h1>SUJERA VISUAL</h1>
         </Grid>
-        <Grid item md={4}></Grid>
+        <Grid item md={6}></Grid>
       </Grid>
     </div>
   );
