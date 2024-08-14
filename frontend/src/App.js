@@ -4,8 +4,12 @@ import Home from "./Components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
+    <div>
+      <div className="background-image"></div>
+      <div className="overlay"></div>
+      <div className="App">
+        <Home />
+      </div>
     </div>
   );
 }
