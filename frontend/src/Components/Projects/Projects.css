@@ -25,3 +25,56 @@
   text-align: left;
   font-size: 16px;
 }
+
+.MuiCard-root {
+  width: 360px;
+  height: 460px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+.carousel-item-padding-40-px {
+  padding: 0 72px;
+}
+
+.MuiGrid-container {
+  justify-content: center;
+}
+
+.MuiCardContent-root {
+  flex: 1 1 auto;
+}
+
+.MuiCardActions-root {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.MuiTypography-h5 {
+  font-weight: bold;
+  color: #333;
+}
+
+.MuiTypography-body2 {
+  color: #666;
+}
+
+.MuiButton-root {
+  color: #007bff;
+  text-transform: none;
+  font-weight: bold;
+}

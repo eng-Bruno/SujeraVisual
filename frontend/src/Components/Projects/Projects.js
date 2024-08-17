@@ -1,6 +1,38 @@
 import React from "react";
 import "./Projects.css";
 import Grid from "@mui/material/Grid";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import {
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  CardActions,
+  Button,
+} from "@mui/material";
+
+// Importa os dados dos projetos do arquivo JSON
+import projectsData from "./projects.json";
+
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 1920, min: 1080 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 1080, min: 720 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 720, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 function Projects() {
   return (
@@ -9,7 +41,7 @@ function Projects() {
         <Grid item md={7}>
           <h1 className="Subtitle">SOBRE</h1>
           <p className="about">
-            orem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
             lacus at elit sodales convallis tincidunt ultrices magna. Phasellus
             massa orci, tincidunt nec purus eu, lobortis vehicula libero. Nullam
             eleifend velit nec tellus gravida, vel pretium elit commodo. Proin
@@ -38,10 +70,42 @@ function Projects() {
       </Grid>
 
       <h1 className="Subtitle" style={{ marginTop: "180px" }}>
-        Projetos
+        PROJETOS
       </h1>
-      <Grid container spacing={2}>
-        <Grid item md={7}></Grid>
+      <Grid container spacing={1}>
+        <Grid item md={12}>
+          <Carousel
+            responsive={responsive}
+            autoPlaySpeed={1000}
+            infinite={true}
+            itemClass="carousel-item-padding-40-px"
+          >
+            {projectsData.map((project, index) => (
+              <div key={index}>
+                <Card>
+                  <CardMedia
+                    component="img"
+                    style={{ height: 258, objectFit: "cover" }}
+                    image={project.image}
+                    title={project.title}
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                      {project.title}
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      {project.description}
+                    </Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button size="small">Compartilhar</Button>
+                    <Button size="small">Informações</Button>
+                  </CardActions>
+                </Card>
+              </div>
+            ))}
+          </Carousel>
+        </Grid>
       </Grid>
     </div>
   );
