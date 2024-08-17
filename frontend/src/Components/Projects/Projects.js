@@ -24,13 +24,15 @@ function Projects() {
         </Grid>
         <Grid className="profile" item md={4}>
           <h1 className="Subtitle">PERFIL</h1>
-          <Grid item md={4}>
-            <p>image</p>
-          </Grid>
-          <Grid item md={8}>
-            <p>Username</p>
-            <p>Work</p>
-            <p>Location</p>
+          <Grid container spacing={2}>
+            <Grid item md={4}>
+              <p>image</p>
+            </Grid>
+            <Grid item md={8}>
+              <p>Username</p>
+              <p>Work</p>
+              <p>Location</p>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
