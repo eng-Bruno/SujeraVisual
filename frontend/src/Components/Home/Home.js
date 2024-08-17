@@ -7,7 +7,7 @@ function Home() {
     <div className="Home">
       <Grid container spacing={2}>
         <Grid item md={6}>
-          <h1>SUJERA VISUAL</h1>
+          <h1 className="title">SUJERA VISUAL</h1>
         </Grid>
         <Grid item md={6}></Grid>
       </Grid>

@@ -1,0 +1,27 @@
+.Projects {
+  height: 1202px;
+  width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(245, 245, 245)
+  );
+}
+
+.Subtitle {
+  text-align: left;
+  margin-left: 120px;
+  font-size: 32px;
+}
+
+.about {
+  text-align: left;
+  margin-left: 120px;
+  font-size: 16px;
+}
+
+.profile {
+  text-align: left;
+  font-size: 16px;
+}

@@ -5,27 +5,23 @@
 
 .background-image {
   margin: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
-  background-image: url("./assets/background.jpg"); /* Imagem de fundo */
+  background-image: url("./assets/background.jpg");
   background-position: center;
-  filter: blur(5px); /* Ajuste o valor do desfoque conforme necessário */
+  background-repeat: repeat;
+  filter: blur(5px);
   z-index: -1;
   overflow: hidden;
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(
-    0,
-    0,
-    0,
-    0.57
-  ); /* Ajuste a cor e a opacidade conforme necessário */
-  z-index: -1; /* Garante que a sobreposição fique acima da imagem de fundo, mas atrás do conteúdo */
+  background: rgba(0, 0, 0, 0.57);
+  z-index: -1;
 }
