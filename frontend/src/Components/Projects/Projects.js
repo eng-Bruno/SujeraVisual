@@ -12,8 +12,8 @@ import {
   Button,
 } from "@mui/material";
 
-// Importa os dados dos projetos do arquivo JSON
-import projectsData from "./projects.json";
+import data from "./projects.json";
+import Image from "../../assets/image1.jpg";
 
 const responsive = {
   superLargeDesktop: {
@@ -80,27 +80,21 @@ function Projects() {
             infinite={true}
             itemClass="carousel-item-padding-40-px"
           >
-            {projectsData.map((project, index) => (
+            {data.map((project, index) => (
               <div key={index}>
                 <Card>
                   <CardMedia
                     component="img"
-                    style={{ height: 258, objectFit: "cover" }}
-                    image={project.image}
+                    image={Image}
                     title={project.title}
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                       {project.title}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {project.description}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
                     <Button size="small">Compartilhar</Button>
                     <Button size="small">Informações</Button>
-                  </CardActions>
+                  </CardContent>
                 </Card>
               </div>
             ))}
