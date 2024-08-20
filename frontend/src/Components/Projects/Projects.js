@@ -72,35 +72,37 @@ function Projects() {
       <h1 className="Subtitle" style={{ marginTop: "180px" }}>
         PROJETOS
       </h1>
-      <Grid container spacing={1}>
-        <Grid item md={12}>
-          <Carousel
-            responsive={responsive}
-            autoPlaySpeed={1000}
-            infinite={true}
-            itemClass="carousel-item-padding-40-px"
-          >
-            {data.map((project, index) => (
-              <div key={index}>
-                <Card>
-                  <CardMedia
-                    component="img"
-                    image={Image}
-                    title={project.title}
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      {project.title}
-                    </Typography>
-                    <Button size="small">Compartilhar</Button>
-                    <Button size="small">Informações</Button>
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
-          </Carousel>
+      <div className="projects-session">
+        <Grid container spacing={1}>
+          <Grid item md={12}>
+            <Carousel
+              responsive={responsive}
+              autoPlaySpeed={1000}
+              infinite={true}
+              itemClass="carousel-item-padding-40-px"
+            >
+              {data.map((project, index) => (
+                <div key={index}>
+                  <Card>
+                    <CardMedia
+                      component="img"
+                      image={Image}
+                      title={project.title}
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div">
+                        {project.title}
+                      </Typography>
+                      <Button size="small">Compartilhar</Button>
+                      <Button size="small">Informações</Button>
+                    </CardContent>
+                  </Card>
+                </div>
+              ))}
+            </Carousel>
+          </Grid>
         </Grid>
-      </Grid>
+      </div>
     </div>
   );
 }

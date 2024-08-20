@@ -26,6 +26,11 @@
   font-size: 16px;
 }
 
+.projects-session {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .MuiCard-root {
   position: relative;
   width: 450px;
@@ -82,7 +87,7 @@
 }
 
 .carousel-item-padding-40-px {
-  padding: 0 104px;
+  padding: 0 120px;
 }
 
 .MuiGrid-container {
