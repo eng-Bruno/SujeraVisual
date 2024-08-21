@@ -1,0 +1,21 @@
+.Contact {
+  height: 400px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, rgb(20, 20, 20), rgb(15, 15, 15));
+}
+
+.contact {
+  color: white;
+  text-align: left;
+  font-size: 16px;
+}
+
+.footer-links {
+  color: white;
+  text-align: left;
+  justify-content: center;
+}

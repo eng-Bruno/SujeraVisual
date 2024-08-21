@@ -37,7 +37,7 @@ const responsive = {
 function Projects() {
   return (
     <div className="Projects">
-      <Grid container spacing={2}>
+      <Grid container spacing={2} className="container">
         <Grid item md={7}>
           <h1 className="Subtitle">SOBRE</h1>
           <p className="about">
@@ -56,7 +56,7 @@ function Projects() {
         </Grid>
         <Grid className="profile" item md={4}>
           <h1 className="Subtitle">PERFIL</h1>
-          <Grid container spacing={2}>
+          <Grid container spacing={2} className="container">
             <Grid item md={4}>
               <p>image</p>
             </Grid>
@@ -73,7 +73,7 @@ function Projects() {
         PROJETOS
       </h1>
       <div className="projects-session">
-        <Grid container spacing={1}>
+        <Grid container spacing={1} className="container">
           <Grid item md={12}>
             <Carousel
               responsive={responsive}
