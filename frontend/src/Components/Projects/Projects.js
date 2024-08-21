@@ -55,7 +55,7 @@ function Projects() {
           <div></div>
         </Grid>
         <Grid className="profile" item md={4}>
-          <h1 className="Subtitle">PERFIL</h1>
+          <h1 className="profile-subtitle">PERFIL</h1>
           <Grid container spacing={2} className="container">
             <Grid item md={4}>
               <p>image</p>
