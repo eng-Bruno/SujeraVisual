@@ -8,9 +8,14 @@ function Home() {
   return (
     <div className="Home">
       <Grid container spacing={2}>
-        <Grid item md={12}>
-          <Header />
-          <h1 className="title">SUJERA VISUAL</h1>
+        <Header />
+
+        <Grid item md={6}>
+          <h1 className="title" style={{ marginTop: "184px" }}>
+            SUJERA VISUAL
+          </h1>
+        </Grid>
+        <Grid item md={6}>
           <img
             src={Logo}
             style={{ marginTop: "64px" }}
