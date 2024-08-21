@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Components/Home/Home";
-import Projects from "./Components/Projects/Projects";
-import Contact from "./Components/Contact/Contact";
+import Home from "./Containers/Home/Home";
+import Projects from "./Containers/Projects/Projects";
+import Contact from "./Containers/Contact/Contact";
 
 function App() {
   return (
