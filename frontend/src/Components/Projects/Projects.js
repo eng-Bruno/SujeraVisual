@@ -93,13 +93,24 @@ function Projects() {
                       <Typography gutterBottom variant="h5" component="div">
                         {project.title}
                       </Typography>
-                      <Button size="small">Compartilhar</Button>
-                      <Button size="small">Informações</Button>
+                      <Typography variant="body2" color="gray">
+                        Técnica utilizada
+                      </Typography>
                     </CardContent>
                   </Card>
                 </div>
               ))}
             </Carousel>
+          </Grid>
+          <Grid
+            container
+            spacing={2}
+            style={{ marginTop: "64px" }}
+            className="button-container"
+          >
+            <button className="buttons">Projetos</button>
+
+            <button className="buttons">Contato</button>
           </Grid>
         </Grid>
       </div>

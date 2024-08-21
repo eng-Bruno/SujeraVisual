@@ -31,6 +31,22 @@
   margin: 0 auto;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  background-color: #d9d9d9;
+  height: 60px;
+  width: 240px;
+  font-size: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: none;
+}
+
 .MuiCard-root {
   position: relative;
   width: 450px;
