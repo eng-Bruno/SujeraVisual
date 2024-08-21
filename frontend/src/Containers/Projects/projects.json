@@ -1,31 +1,37 @@
 [
   {
-    "title": "Projeto 1",
-    "image": "image1.jpg",
+    "title": "Skin",
+    "technique": "Carvão",
+    "image": "assets/skin.png",
     "link": "https://link.com"
   },
   {
-    "title": "Projeto 2",
-    "image": "image1.jpg",
+    "title": "Knife",
+    "technique": "Arte Digital",
+    "image": "assets/knife.png",
     "link": "https://link.com"
   },
   {
-    "title": "Projeto 3",
-    "image": "image1.jpg",
+    "title": "Pantera",
+    "technique": "Arte Digital",
+    "image": "assets/pantera.png",
     "link": "https://link.com"
   },
   {
     "title": "Projeto 4",
+    "technique": "",
     "image": "image1.jpg",
     "link": "https://link.com"
   },
   {
     "title": "Projeto 5",
+    "technique": "",
     "image": "image1.jpg",
     "link": "https://link.com"
   },
   {
     "title": "Projeto 6",
+    "technique": "",
     "image": "image1.jpg",
     "link": "https://link.com"
   }

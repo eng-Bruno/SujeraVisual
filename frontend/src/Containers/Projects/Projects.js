@@ -13,7 +13,6 @@ import {
 } from "@mui/material";
 
 import data from "./projects.json";
-import Image from "../../assets/image1.jpg";
 
 const responsive = {
   superLargeDesktop: {
@@ -86,7 +85,7 @@ function Projects() {
                   <Card>
                     <CardMedia
                       component="img"
-                      image={Image}
+                      image={project.image}
                       title={project.title}
                     />
                     <CardContent>
@@ -94,7 +93,7 @@ function Projects() {
                         {project.title}
                       </Typography>
                       <Typography variant="body2" color="gray">
-                        Técnica utilizada
+                        {project.technique}
                       </Typography>
                     </CardContent>
                   </Card>
