@@ -2,37 +2,36 @@
   {
     "title": "Skin",
     "technique": "Carvão",
-    "image": "assets/skin.png",
-    "link": "https://link.com"
+    "image": "assets/skin.png"
   },
   {
     "title": "Knife",
     "technique": "Arte Digital",
-    "image": "assets/knife.png",
-    "link": "https://link.com"
+    "image": "assets/knife.png"
   },
   {
     "title": "Pantera",
     "technique": "Arte Digital",
-    "image": "assets/pantera.png",
-    "link": "https://link.com"
+    "image": "assets/pantera.png"
   },
   {
-    "title": "Projeto 4",
+    "title": "submission",
     "technique": "",
-    "image": "image1.jpg",
-    "link": "https://link.com"
+    "image": "assets/submission.png"
   },
   {
-    "title": "Projeto 5",
+    "title": "devilish christ",
     "technique": "",
-    "image": "image1.jpg",
-    "link": "https://link.com"
+    "image": "assets/devilish christ.png"
   },
   {
-    "title": "Projeto 6",
+    "title": "caramujo frito",
     "technique": "",
-    "image": "image1.jpg",
-    "link": "https://link.com"
+    "image": "assets/caramujo frito.png"
+  },
+  {
+    "title": "head",
+    "technique": "",
+    "image": "assets/head.png"
   }
 ]
