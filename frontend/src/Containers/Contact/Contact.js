@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 
 import InstagramIcon from "@mui/icons-material/Instagram";
 import InboxIcon from "@mui/icons-material/Inbox";
+import { Link } from "@mui/material";
 
 function Contact() {
   return (
@@ -12,13 +13,19 @@ function Contact() {
         <Grid item md={6}>
           <Grid container spacing={3} className="footer-links">
             <Grid item md={2}>
-              <p>PROJETOS</p>
+              <Link underline="none" href="#" color="inherit">
+                <p>PROJETOS</p>
+              </Link>
             </Grid>
             <Grid item md={2}>
-              <p>SOBRE</p>
+              <Link underline="none" href="#" color="inherit">
+                <p>SOBRE</p>
+              </Link>
             </Grid>
             <Grid item md={2}>
-              <p>CONTATO</p>
+              <Link underline="none" href="#" color="inherit">
+                <p>CONTATO</p>
+              </Link>
             </Grid>
           </Grid>
         </Grid>
