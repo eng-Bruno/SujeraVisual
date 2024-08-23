@@ -57,7 +57,7 @@ function Orçamento() {
             />
             <Button
               variant="contained"
-              style={{ backgroundColor: "#2c2c2c" }}
+              style={{ backgroundColor: "#2c2c2c", color: "#ffffff" }}
               fullWidth
             >
               Enviar
