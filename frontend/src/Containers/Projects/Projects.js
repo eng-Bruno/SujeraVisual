@@ -86,6 +86,7 @@ function Projects() {
           <Grid item md={12}>
             <Carousel
               responsive={responsive}
+              autoPlay={true}
               autoPlaySpeed={5000}
               centerMode={true}
               itemClass="carousel-item"
