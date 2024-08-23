@@ -11,14 +11,14 @@ function Home() {
         <Header />
 
         <Grid item md={6}>
-          <h1 className="title" style={{ marginTop: "144px" }}>
+          <h1 className="title" style={{ marginTop: "256px" }}>
             SUJERA VISUAL
           </h1>
         </Grid>
         <Grid item md={6}>
           <img
             src={Logo}
-            style={{ marginTop: "48px" }}
+            style={{ marginTop: "144px" }}
             alt="Logo"
             className="logo"
           />

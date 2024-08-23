@@ -82,7 +82,6 @@ function Projects() {
           <div></div>
         </Grid>
       </Grid>
-
       <h1
         className="Subtitle"
         style={{ marginTop: "180px", marginLeft: "120px" }}

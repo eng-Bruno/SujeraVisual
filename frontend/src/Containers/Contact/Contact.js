@@ -13,17 +13,17 @@ function Contact() {
         <Grid item md={6}>
           <Grid container spacing={3} className="footer-links">
             <Grid item md={2}>
-              <Link underline="none" href="#" color="inherit">
+              <Link underline="none" href="projetos" color="inherit">
                 <p>PROJETOS</p>
               </Link>
             </Grid>
             <Grid item md={2}>
-              <Link underline="none" href="#" color="inherit">
+              <Link underline="none" href="sobre" color="inherit">
                 <p>SOBRE</p>
               </Link>
             </Grid>
             <Grid item md={2}>
-              <Link underline="none" href="#" color="inherit">
+              <Link underline="none" href="contato" color="inherit">
                 <p>CONTATO</p>
               </Link>
             </Grid>
