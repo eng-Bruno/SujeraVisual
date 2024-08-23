@@ -3,14 +3,7 @@ import "./Projects.css";
 import Grid from "@mui/material/Grid";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import {
-  Card,
-  CardMedia,
-  CardContent,
-  Typography,
-  CardActions,
-  Button,
-} from "@mui/material";
+import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 
 import data from "./projects.json";
 
@@ -21,15 +14,15 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 1920, min: 1080 },
-    items: 5,
+    items: 1,
   },
   desktop: {
     breakpoint: { max: 1080, min: 720 },
-    items: 3,
+    items: 1,
   },
   tablet: {
     breakpoint: { max: 720, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -93,12 +86,18 @@ function Projects() {
           <Grid item md={12}>
             <Carousel
               responsive={responsive}
-              autoPlaySpeed={1000}
+              autoPlaySpeed={5000}
+              centerMode={true}
+              itemClass="carousel-item"
+              containerClass="carousel-container"
+              arrows={true}
               infinite={true}
-              itemClass="carousel-item-padding-40-px"
+              focusOnSelect={true}
+              swipeable={true}
+              draggable={true}
             >
               {data.map((project, index) => (
-                <div key={index}>
+                <div key={index} className="carousel-item">
                   <Card>
                     <CardMedia
                       component="img"

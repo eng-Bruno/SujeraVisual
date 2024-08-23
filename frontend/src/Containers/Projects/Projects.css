@@ -62,7 +62,7 @@
   text-align: left;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin: 20px;
+  margin: 0 auto;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -106,11 +106,9 @@
   font-weight: bold;
 }
 
-.carousel-item-padding-40-px {
-  padding: 0 120px;
-}
-
-.container {
+.carousel-item {
+  padding: 0;
+  display: flex;
   justify-content: center;
 }
 
