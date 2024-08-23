@@ -14,6 +14,10 @@ import {
 
 import data from "./projects.json";
 
+import PersonIcon from "@mui/icons-material/Person";
+import WorkIcon from "@mui/icons-material/Work";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 1920, min: 1080 },
@@ -37,19 +41,6 @@ function Projects() {
   return (
     <div className="Projects">
       <Grid container spacing={2} className="container">
-        <Grid item md={7}>
-          <h1 className="Subtitle">SOBRE</h1>
-          <p className="about">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-            lacus at elit sodales convallis tincidunt ultrices magna. Phasellus
-            massa orci, tincidunt nec purus eu, lobortis vehicula libero. Nullam
-            eleifend velit nec tellus gravida, vel pretium elit commodo. Proin
-            ac gravida libero, eget porta tellus. Aenean auctor ante et risus
-            consequat, quis lobortis leo pharetra. Interdum et malesuada fames
-            ac ante ipsum primis in faucibus. Mauris mi purus, ultrices
-            fermentum aliquet varius.
-          </p>
-        </Grid>
         <Grid item md={1}>
           <div></div>
         </Grid>
@@ -60,15 +51,42 @@ function Projects() {
               <p>image</p>
             </Grid>
             <Grid item md={8}>
-              <p>Username</p>
-              <p>Work</p>
-              <p>Location</p>
+              <div className="icons">
+                <PersonIcon />{" "}
+                <span style={{ marginLeft: "8px" }}>Username</span>
+              </div>
+              <div className="icons">
+                <WorkIcon /> <span style={{ marginLeft: "8px" }}>Artist</span>
+              </div>
+              <div className="icons">
+                <LocationOnIcon />{" "}
+                <span style={{ marginLeft: "8px" }}>Brasília, DF</span>
+              </div>
             </Grid>
           </Grid>
         </Grid>
+        <Grid item md={6}>
+          <h1 className="Subtitle">SOBRE</h1>
+          <p className="about">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            lacus at elit sodales convallis tincidunt ultrices magna. Phasellus
+            massa orci, tincidunt nec purus eu, lobortis vehicula libero. Nullam
+            eleifend velit nec tellus, vel pretium elit commodo. Proin ac
+            gravida libero, eget porta tellus. Aenean auctor ante et risus
+            consequat, quis lobortis leo pharetra. Interdum et malesuada fames
+            ac ante ipsum primis in faucibus. Mauris mi purus, ultrices
+            fermentum aliquet varius.
+          </p>
+        </Grid>
+        <Grid item md={1}>
+          <div></div>
+        </Grid>
       </Grid>
 
-      <h1 className="Subtitle" style={{ marginTop: "180px" }}>
+      <h1
+        className="Subtitle"
+        style={{ marginTop: "180px", marginLeft: "120px" }}
+      >
         PROJETOS
       </h1>
       <div className="projects-session">
