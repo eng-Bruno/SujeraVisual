@@ -2,6 +2,9 @@ import React from "react";
 import "./Contact.css";
 import Grid from "@mui/material/Grid";
 
+import InstagramIcon from "@mui/icons-material/Instagram";
+import InboxIcon from "@mui/icons-material/Inbox";
+
 function Contact() {
   return (
     <div className="Contact">
@@ -22,6 +25,9 @@ function Contact() {
         <Grid item md={6} className="contact">
           <p>example@email.com</p>
           <p>(xx) xxxxx-xxxx</p>
+          <div style={{ marginTop: "64px" }}>
+            <InstagramIcon /> <InboxIcon />
+          </div>
         </Grid>
       </Grid>
     </div>
