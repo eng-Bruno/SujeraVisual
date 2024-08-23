@@ -91,7 +91,6 @@ function Projects() {
               centerMode={true}
               itemClass="carousel-item"
               containerClass="carousel-container"
-              arrows={true}
               infinite={true}
               focusOnSelect={true}
               swipeable={true}
