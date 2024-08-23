@@ -5,9 +5,9 @@
   justify-content: center;
   margin: 0 auto;
   background-image: url("../../assets/orçamento.png");
-  background-size: cover; /* Garante que a imagem cubra toda a área */
-  background-position: center; /* Centraliza a imagem no background */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  position: relative; /* Garante que os elementos internos fiquem sobre o background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   z-index: 1;
 }

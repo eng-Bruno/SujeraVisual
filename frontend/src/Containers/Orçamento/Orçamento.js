@@ -9,8 +9,18 @@ function Orçamento() {
   return (
     <div className="Orçamento">
       <Grid container spacing={2}>
-        <Grid item md={6} style={{ marginTop: "256px" }}>
-          <Box component="form" noValidate autoComplete="off">
+        <Grid item md={4} style={{ marginTop: "256px" }}>
+          <h1 className="Subtitle" style={{ marginLeft: "120px" }}>
+            Orçamento
+          </h1>
+          <Box
+            component="form"
+            sx={{
+              "& > :not(style)": { m: 1, width: "100%", marginLeft: "120px" },
+            }}
+            noValidate
+            autoComplete="off"
+          >
             <TextField
               id="email"
               label="EMAIL"
