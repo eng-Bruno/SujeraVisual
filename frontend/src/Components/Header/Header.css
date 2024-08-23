@@ -1,10 +1,9 @@
 .Header {
   width: 788px;
   display: flex;
-  margin: 0 auto;
   justify-content: center;
-  align-items: center;
   margin: 0 auto;
+  margin-top: 40px;
   color: white;
   font-size: 24px;
   font-weight: 500;
