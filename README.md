@@ -8,4 +8,13 @@ Este é um portfólio desenvolvido para a página de artes visuais Sujera Visual
 
 <br/>
 
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+
+- Você instalou a versão mais recente de `<Node/ v14 lts>` e `<React / v18.3.1+>`
+
+<br/>
 
